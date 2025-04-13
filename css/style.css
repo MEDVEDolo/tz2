@@ -64,4 +64,20 @@
     .video__video {
         height: 190vh;
     }
+
+    .video__text {
+        font-size: 50px;
+    }
+
+    .text {
+        padding: 0 10px;
+        height: 80px;
+    }
+
+    .hole {
+        height: 80px;
+        mask: 
+            linear-gradient(to right, #000 10%, transparent 10%, transparent 90%, #000 70%),
+            linear-gradient(to bottom, #000 20%, transparent 20%, transparent 70%, #000 70%);
+    }
 }
