@@ -49,7 +49,7 @@
     background-color: #000;
     mask: 
         linear-gradient(to right, #000 10%, transparent 10%, transparent 90%, #000 70%),
-        linear-gradient(to bottom, #000 30%, transparent 30%, transparent 70%, #000 70%);
+        linear-gradient(to bottom, #000 30%, transparent 30%, transparent 80%, #000 70%);
     flex-grow: 200;
     flex-shrink: 1;
 }
@@ -62,11 +62,12 @@
 
 @media screen and (max-width: 597px) {
     .video__video {
-        height: 190vh;
+        height: 100vh;
     }
 
     .video__text {
         font-size: 50px;
+        border-bottom: 400px solid #000;
     }
 
     .text {
